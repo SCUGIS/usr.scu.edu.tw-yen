@@ -1,0 +1,209 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+.section {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.content {
+  position: relative;
+  height: 100%;
+}
+
+.carousel {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #666;
+}
+
+.slide-img {
+  object-fit: cover;
+  font-family: 'object-fit: cover;';
+  width: auto;
+  height: 100%;
+  margin: auto;
+}
+
+.jarallax-img {
+  filter: blur(3px);
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.content-cr {
+  position: absolute;
+  width: 50%;
+  top: 25%;
+
+  color: #fff;
+  text-shadow: 2px 2px 3px #666;
+}
+
+.title {
+  width: 100%;
+  top: 50%;
+  text-align: right;
+}
+
+.content-wt {
+  padding: 50px 0 50px 0;
+  color: #000;
+  text-shadow: 1px 1px 1px #666;
+}
+
+.pos-right {
+  right: 0;
+}
+
+.pos-left {
+  left: 0;
+}
+
+.bg {
+  position: absolute !important;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.bg-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(3px);
+}
+
+.content-image {
+  object-fit: cover;
+  font-family: 'object-fit: cover;';
+  width: 100%;
+}
+
+.fixed {
+  position: fixed !important;
+  top: 0;
+  z-index: -1;
+}
+
+.page0 {
+  height: 50%;
+}
+
+.page6 {
+  height: 700%;
+}
+
+.page2 {
+  height: 150%;
+}
+
+.page2-fixed {
+  margin-top: -30%;
+}
+
+.page3 {
+  height: 200%;
+}
+
+.page4 {
+  height: 400%;
+}
+
+.page5 {
+  height: 600%;
+}
+
+.page0-fixed {
+  margin-top: -20%;
+}
+
+.page5-fixed {
+  margin-top: -30%;
+}
+
+.page5-content {
+  height: 20%;
+}
+
+.page4-content {
+  height: 33.33%;
+}
+
+.page3-content {
+  height: 50%;
+}
+
+.page6-content {
+  height: 14.25%;
+}
+
+.page2-content {
+  height: 70%;
+}
+
+.page2-content-wt {
+  height: 30%;
+}
+
+.page-content-wt {
+  height: auto;
+}
+
+.youtube {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+}
+
+.youtube > iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-top: auto;
+  width: 100%;
+  height: 100%;
+}
+
+p {
+  font-size: 16pt;
+}
+
+h2 {
+  font-size: 32pt;
+}
+
+h3 {
+  font-size: 28pt;
+}
+
+.mid {
+  margin: auto;
+}
+
+.row > div {
+  margin: auto;
+}
+
+.footer-text {
+  width: 100%;
+  display: block;
+  text-align: center;
+  color: #000;
+  text-shadow: 1px 1px 1px #666;
+}
